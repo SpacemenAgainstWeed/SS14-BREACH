@@ -1,3 +1,25 @@
+# SS14 BREACH
+
+SS14 BREACH - билд Space Station 14 на основе Imperial Space (пока что не признанный как подпроект), что вдохновлён и переносит геймлей гмод бричей в стацнию 14, с частично переработанным и собственным контентом.
+
+## SCP Foundation Licensing
+
+Любой творческий проект, использующий в себе элементы SCP Foundation как бренда, считается производным проектом. Это может быть один элемент (название, логотип, дизайн, персонаж, статья или иное) или несколько элементов в совокупности. Примером производных проектов может считаться компьютерная игра SCP: Containment Breach или сувенирные пивные бокалы с логотипом Фонда SCP.
+
+Все производные от SCP Foundation проекты распространяются под лицензией Creative Commons Attribution-ShareAlike 3.0 Unported (далее CC-BY-SA 3.0.). Если вы являетесь/хотите стать автором производного проекта, необходимо соблюсти следующее:
+
+Созданный контент должен наследовать лицензию CC-BY-SA 3.0 (пункт ShareAlike);
+Созданный контент должен быть обеспечен ссылками на источник и на оригинального автора или авторов (пункт Attribution).
+Информацию о лицензировании надлежит размещать на видном месте, чтобы к вам, как к автору, не было вопросов, а также чтобы защитить ваш вклад от недобросовестного использования.
+
+Official SCP Foundation website (не работает без ВПНа): https://scp-wiki.wikidot.com/
+
+## RXsend & RBreach
+
+Билд глубоко, и мы имеем ввиду ГЛУБОКО вдохновлён Gmod бричами, а конкретно бричом от команды RXsend. Так же частичное вдохновение было взято с роблокс-плейса Classic Rbreach. Ссылки внизу.
+Дискорд-сервер нынешней дев-тимы оригинального RXsend: https://discord.gg/8rZatGmJ5V
+Группа разрабов classic rBreach: https://www.roblox.com/share/g/526116898
+
 # Imperial Space
 English text below.
 
@@ -16,47 +38,6 @@ This repository is for accepting voluntary contributions in support of [Imperial
 This repository is a global conversion mod for the game Space Station 14. Nearly all modifications made to the original game are protected by the [ICLA](https://wiki.imperialspace.net/icla) and [IELA](https://wiki.imperialspace.net/iela) licenses. Therefore, using this build to host servers without the copyright holder’s written permission is prohibited and monitored.
 This repository also includes original game code, which is licensed under the [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT) License. In addition, it contains content licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 Assets have their license and the copyright in the metadata file. [Example](https://github.com/imperial-space/SW-public/blob/develop/Resources/Textures/Imperial/Medieval/Clothing/Armor/brigantin.rsi/meta.json).
-
-## Запуск локалки
-### Требуемые программы
-Если вы хотите запустить именно нашу сборку, то вам понадобится данное программное обеспечение:
-1. [Git](https://git-scm.com/downloads)
-1. [DotNet SDK 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
-1. [Python](https://www.python.org/downloads/)
-
-### Пошаговая инструкция установки
-
-#### 1. Открываем консоль
-Нажать <kbd>Win</kbd> или кликнуть <kbd>ЛКМ</kbd> по строке поиска рядом с кнопкой "Пуск", ввести `cmd` или `Командная строка` и открыть найденное приложение.
-
-#### 2. Устанавливаем сборку
-Вводим одну из следующих команд в консоль — в зависимости от нужной сборки:
-```
-git clone https://github.com/imperial-space/SS14-public
-```
-Ожидаем завершения загрузки. Репозиторий появится по пути `C:\Users\(имя вашего пользователя)\SS14-public` или в той папке, где вы выполнили команду.
-Путь для установки можно изменить, для этого перед установкой следует использовать `cd Диск/Путь`
-#### 3. Переходим в папку сборки
-Вводим следующию команду в консоль:
-```
-cd SS14-public
-```
-#### 4. Обновляем подмодули сборки
-Вводим в консоль:
-```
-git submodule update --init --recursive
-```
-#### 5. Собираем сборку
-Вводим в консоль:
-
-```
-dotnet build -c release
-```
-
-Использование команды `dotnet build` без аргументов запускает сервер в DEV режиме. В нём при входе вы появляетесь в роли капитана на DEV-карте с некоторыми ограничениями, а также при любой ошибке сервер будет завершать работу с фатальным логом в консоли. **Этот режим не подходит для маппинга**.
-
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
-
 
 ## About Space Station 14
 
