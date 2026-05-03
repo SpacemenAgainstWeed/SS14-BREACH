@@ -17,7 +17,9 @@ Official SCP Foundation website (не работает без ВПНа): https:/
 ## RXsend & RBreach
 
 Билд глубоко, и мы имеем ввиду ГЛУБОКО вдохновлён Gmod бричами, а конкретно бричом от команды RXsend. Так же частичное вдохновение было взято с роблокс-плейса Classic Rbreach. Ссылки внизу.
+
 Дискорд-сервер нынешней дев-тимы оригинального RXsend: https://discord.gg/8rZatGmJ5V
+
 Группа разрабов classic rBreach: https://www.roblox.com/share/g/526116898
 
 # Imperial Space
