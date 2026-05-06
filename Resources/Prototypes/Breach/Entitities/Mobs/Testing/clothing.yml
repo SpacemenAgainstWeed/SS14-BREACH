@@ -1,0 +1,34 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingBreachUniformBase
+  name: breach suit
+  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  components:
+  - type: Item
+    size: Huge
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: UseDelay
+    delay: 0.5
+  - type: Storage
+    equipDelay: 3
+    unequipDelay: 2
+    grid:
+    - 0,0,1,1
+    - 3,0,4,1
+    - 6,0,7,1
+    - 9,0,10,1
+    - 0,3,1,4
+    - 3,3,4,4
+    - 6,3,7,4
+    - 9,3,10,4
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi

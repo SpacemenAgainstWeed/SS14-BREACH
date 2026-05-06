@@ -1,0 +1,64 @@
+- type: entity
+  parent: MobHuman
+  id: MobHumanBreach
+  name: Urist McCiv
+  components:
+  - type: Stamina
+    stunModifierThresholds:
+      0: 1.0
+      0.9: 0.65
+  - type: Inventory
+    templateId: humanSCP
+  - type: SprintingEntity
+    sprintPerTick: 10
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5.3
+    baseSprintSpeed: 3.3
+
+- type: inventoryTemplate
+  id: humanSCP
+  slots:
+    - name: jumpsuit
+      slotTexture: uniform
+      slotFlags: INNERCLOTHING
+      stripTime: 6
+      uiWindowPos: 2,1
+      strippingWindowPos: 0,2
+      slotGroup: SecondHotbar
+      displayName: Jumpsuit
+    - name: outerClothing
+      slotGroup: MainHotbar
+      slotTexture: suit
+      slotFlags: OUTERCLOTHING
+      stripTime: 6
+      uiWindowPos: 1,1
+      strippingWindowPos: 1,2
+      displayName: Suit
+    - name: mask
+      slotTexture: mask
+      slotFlags: MASK
+      uiWindowPos: 1,1
+      strippingWindowPos: 0,1
+      displayName: Mask
+    - name: eyes
+      slotTexture: glasses
+      slotFlags: EYES
+      stripTime: 3
+      uiWindowPos: 0,1
+      strippingWindowPos: 0,0
+      displayName: Eyes
+    - name: ears
+      slotTexture: ears
+      slotFlags: EARS
+      stripTime: 3
+      uiWindowPos: 1,0
+      strippingWindowPos: 1,0
+      displayName: Ears
+    - name: suitstorage
+      slotTexture: suit_storage
+      slotFlags:   SUITSTORAGE
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 2,0
+      strippingWindowPos: 2,5
+      displayName: Suit Storage
